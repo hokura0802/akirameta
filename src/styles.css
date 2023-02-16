@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+}
+.input_area {
+	background-color: rgb(191, 253, 45);
+	width: 400px;
+	height: 30px;
+	padding: 8px;
+	margin: 8px auto;
+	border-radius: 8px;
+}
+.incomplete_area {
+	background-color: rgb(191, 253, 45);
+	width: 400px;
+	min-height: 200px;
+	padding: 8px;
+	margin: 8px auto;
+	border-radius: 8px;
+}
+.complete_area {
+	background-color: blue;
+	width: 400px;
+	min-height: 200px;
+	padding: 8px;
+	margin: 8px auto;
+	border-radius: 8px;
+}
+input {
+	border-radius: 16px;
+	border: none;
+	padding: 6px 16px;
+	font-size: 20px;
+	font-weight: bold;
+	width: 200px;
+}
+button {
+	border-radius: 16px;
+	border: none;
+	padding: 4px 16px;
+	margin-left: 8px;
+}
+button:hover {
+	background-color: black;
+	color: aliceblue;
+	cursor: pointer;
+	transition: all 0.8s;
+}
+.title {
+	text-align: center;
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: aliceblue;
+}
+ul {
+	padding-left: 16px;
+}
+
+li div {
+	padding-bottom: 4px;
+	text-decoration: none;
+}
+
+.list_row {
+	display: flex;
+}
